@@ -1,14 +1,6 @@
 # README
 
-To run the code, run:
+To run the code, you shoud open the main.ipynb with jupyter notebook rather than run: main.py
 
-> python main.py 
-
-You will need to download the datasets yourself from http://www.vision.caltech.edu/visipedia/CUB-200-2011.html.
-Default dataset location is "./dataset". You can change the --dpath default values as you want.
-
-To load pretrained model, run:
-> python main.py --restore_ckpt ./checkpoints/model_name.pth
-
-Do not change nway, kshot, query numbers! 
-
+### Important
+Please check not main.py but main.ipynb 
