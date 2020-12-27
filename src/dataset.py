@@ -88,7 +88,7 @@ class CUB(Dataset):
         #img = transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])(img)
         img = transforms.Normalize([0.4924, 0.5064, 0.4510], [0.1767, 0.1759, 0.1870])(img)
         
-            """ TODO 1.c (optional) END """
+        """ TODO 1.c (optional) END """
         
         return img, target
 
